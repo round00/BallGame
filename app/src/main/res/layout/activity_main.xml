@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+    <com.round0.ballgame.FoodView
+        android:id="@+id/food"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+    <com.round0.ballgame.BarrierView
+        android:id="@+id/barriers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.round0.ballgame.BallView
+        android:id="@+id/ball_main"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+    </com.round0.ballgame.BallView>
+
+</FrameLayout>
