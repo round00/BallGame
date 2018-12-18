@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 mSensorManager.unregisterListener(MainActivity.this);
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 builder.setTitle("提示");
-                builder.setMessage("你挂了");
+                builder.setMessage("游戏结束");
                 builder.setCancelable(false);
                 builder.setPositiveButton("在来一次", new DialogInterface.OnClickListener() {
                     @Override
